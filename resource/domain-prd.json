@@ -1,0 +1,4 @@
+{
+    "baseUrl": "http://172.18.90.36:9875/resi",
+    "staticFileUrl": "http://172.18.90.36:9875/file/resi"
+}

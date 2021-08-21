@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://172.18.90.28:9875",
+    "loginUrl": "http://172.18.90.28:9875/login.html",
+    "urlList": [],
+    "whiteList": ["blob:http"],
+    "ssoLock": true
+}

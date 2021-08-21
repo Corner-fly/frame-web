@@ -1,0 +1,101 @@
+body,
+html,
+p,
+span,
+label,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+th,
+td {
+    font-size: 18px !important;
+    user-select: none;
+}
+
+// 弹窗
+.el-dialog {
+    border-radius: 10px;
+
+    .el-dialog__header {
+        padding: 0 26px;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #ccc;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .dialog-footer {
+        text-align: center;
+    }
+}
+
+// 表单
+.el-input__inner {
+    color: #9d9d9d;
+    height: 54px;
+}
+
+.el-input-number {
+    .el-input__inner {
+        height: 40px;
+    }
+}
+
+.el-form-item__label {
+    color: #9d9d9d;
+    line-height: 54px;
+}
+
+.el-input__icon {
+    line-height: 54px;
+}
+
+.el-select .el-input .el-select__caret {
+    font-size: 28px;
+}
+
+.el-button.hy-button {
+
+    &,
+    &:hover,
+    &:focus {
+        padding: 0 30px;
+        height: 44px;
+        line-height: 44px;
+        color: #fff;
+        background: #4d69f6;
+        border: 1px solid #4d69f6;
+
+        &.white {
+            color: #000;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+    }
+}
+
+/* 滚动条 */
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(144, 147, 153, 0.3);
+}

@@ -1,0 +1,36 @@
+{
+  "name": "product-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dll": "webpack -p --progress --config ./webpack.dll.conf.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-dev": "vue-cli-service build --mode dev",
+    "build-test": "vue-cli-service build --mode test",
+    "build-prd": "vue-cli-service build --mode prd",
+    "build-pro": "vue-cli-service build --mode pro"
+  },
+  "dependencies": {
+    "add-asset-html-webpack-plugin": "^3.1.3",
+    "axios": "^0.18.0",
+    "clean-webpack-plugin": "^1.0.1",
+    "compression-webpack-plugin": "^3.0.0",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.4.11",
+    "vue": "^2.5.17",
+    "vue-cli-plugin-dll": "^1.1.12",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.2.3"
+  }
+}

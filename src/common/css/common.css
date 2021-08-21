@@ -1,0 +1,45 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+
+/* 弹框公共样式 */
+.dialog_max{
+
+}
+.dialog_medium{
+
+}
+.dialog_small{
+
+}
+
+/* 下来选项公共样式 */
+.select_custom{
+
+}
+
+/* 树控件公共样式 */
+.tree_custom{
+
+}
+
+/* 按钮公共样式 */
+.button_custom{
+
+}
+
+/* input控件公共样式 */
+.input_custom{
+
+}
+
+/* 消息弹框控件公共样式 */
+.message-custom{
+    
+}
+
+.message-box-custom{
+
+}
+
