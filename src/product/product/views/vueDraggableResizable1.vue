@@ -19,6 +19,7 @@
 
 <script>
 import vdr from 'vue-draggable-resizable-gorkys';
+// import vdr from '@/components/vue-draggable-resizable-gorkys';
 import 'vue-draggable-resizable-gorkys/dist/VueDraggableResizable.css';
 export default {
   components: {vdr},

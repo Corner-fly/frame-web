@@ -16,4 +16,12 @@ export default [
             name_str: 'vueDraggableResizable'
         }
     },
+    {
+        path: '/vueDraggableResizableRotatable',
+        name: 'vueDraggableResizableRotatable',
+        component:  () => import( /* webpackChunkName: "vueDraggableResizableRotatable" */ "../../views/vueDraggableResizableRotatable.vue"),
+        meta: {
+            name_str: 'vueDraggableResizable'
+        }
+    },
 ];
